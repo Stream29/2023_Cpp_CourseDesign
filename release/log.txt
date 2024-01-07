@@ -1,0 +1,1028 @@
+
+
+ 
+2024-01-04 03:34:44 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 0 48 
+inputString = "0" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "0" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=0" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "0" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "0" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get invalid charactor 12289 
+inputString = "1" 
+get valid Ascii charactor / 47 
+inputString = "1/" 
+get valid Ascii charactor 0 48 
+inputString = "1/0" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "1/0" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=1/0" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1/0" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "1" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "0" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "0" 
+*nowOperator = 1 
+*nowValue = 1 
+text[*nowOperator] = 47 
+operatorSplit = {1,} 
+valueSplit = {1,0,} 
+DividedByZeroException :  
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+
+ 
+2024-01-04 03:35:44 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+
+ 
+2024-01-04 03:36:16 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 27 
+Status.cpp : void* status::__exitStatus() at line 183 
+
+ 
+2024-01-04 03:39:43 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get valid Ascii charactor 2 50 
+inputString = "12" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "12" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=12" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "12" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "12" 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 27 
+Status.cpp : void* status::__exitStatus() at line 183 
+
+ 
+2024-01-04 20:31:41 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor a 97 
+inputString = "a" 
+get valid Ascii charactor   32 
+inputString = "a " 
+get valid Ascii charactor = 61 
+inputString = "a =" 
+get valid Ascii charactor   32 
+inputString = "a = " 
+get valid Ascii charactor 7 55 
+inputString = "a = 7" 
+get valid Ascii charactor 8 56 
+inputString = "a = 78" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "a = 78" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "a=78" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "78" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "78" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 2 50 
+inputString = "2" 
+get valid Ascii charactor / 47 
+inputString = "2/" 
+get valid Ascii charactor a 97 
+inputString = "2/a" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "2/a" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=2/a" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "2/a" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "2" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "2" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "a" 
+*nowOperator = 1 
+*nowValue = 2 
+text[*nowOperator] = 47 
+operatorSplit = {1,} 
+valueSplit = {2,78,} 
+operatorSplit = {} 
+valueSplit = {1/39,} 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get valid Ascii charactor / 47 
+inputString = "1/" 
+get valid Ascii charactor 0 48 
+inputString = "1/0" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "1/0" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=1/0" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1/0" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "1" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "0" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "0" 
+*nowOperator = 1 
+*nowValue = 1 
+text[*nowOperator] = 47 
+operatorSplit = {1,} 
+valueSplit = {1,0,} 
+DividedByZeroException :  
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor ( 40 
+inputString = "1/0(" 
+get valid Ascii charactor ( 40 
+inputString = "1/0((" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "1/0((" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=1/0((" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1/0((" 
+BracketMismatchException : "1/0((" 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor a 97 
+inputString = "1/(a" 
+get valid Ascii charactor   32 
+inputString = "1/(a " 
+get valid Ascii charactor = 61 
+inputString = "1/(a =" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor + 43 
+inputString = "1/(a +" 
+get valid Ascii charactor   32 
+inputString = "1/(a + " 
+get valid Ascii charactor _ 95 
+inputString = "1/(a + _" 
+get valid Ascii charactor ) 41 
+inputString = "1/(a + _)" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "1/(a + _)" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=1/(a+_)" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1/(a+_)" 
+test::toString(bracketRecord) = "{0,0,1,1,1,1,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "1" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(a+_)" 
+test::toString(bracketRecord) = "{1,1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a+_" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "a" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "_" 
+*nowOperator = 1 
+*nowValue = 78 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {78,1/39,} 
+*nowOperator = 1 
+*nowValue = 78 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {78,1/39,} 
+*nowOperator = 1 
+*nowValue = 78 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {78,1/39,} 
+operatorSplit = {} 
+valueSplit = {3043/39,} 
+*nowOperator = 1 
+*nowValue = 1 
+text[*nowOperator] = 47 
+operatorSplit = {1,} 
+valueSplit = {1,3043/39,} 
+operatorSplit = {} 
+valueSplit = {39/3043,} 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get valid Ascii charactor 1 49 
+inputString = "11" 
+get valid Ascii charactor 1 49 
+inputString = "111" 
+get valid Ascii charactor 1 49 
+inputString = "1111" 
+get valid Ascii charactor 1 49 
+inputString = "11111" 
+get valid Ascii charactor 1 49 
+inputString = "111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111111111111111111111111111111111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111111111111111111111111111111111111111111111111111" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "11111111111111111111111111111111111111111111111111111111111111111111111" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=11111111111111111111111111111111111111111111111111111111111111111111111" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "11111111111111111111111111111111111111111111111111111111111111111111111" 
+test::toString(bracketRecord) = "{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "11111111111111111111111111111111111111111111111111111111111111111111111" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor _ 95 
+inputString = "_" 
+get valid Ascii charactor   32 
+inputString = "_ " 
+get valid Ascii charactor * 42 
+inputString = "_ *" 
+get valid Ascii charactor   32 
+inputString = "_ * " 
+get valid Ascii charactor * 42 
+inputString = "_ * *" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor _ 95 
+inputString = "_ * _" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "_ * _" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=_*_" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_*_" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "_" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "_" 
+*nowOperator = 1 
+*nowValue = 11111111111111111111111111111111111111111111111111111111111111111111111 
+text[*nowOperator] = 42 
+operatorSplit = {1,} 
+valueSplit = {11111111111111111111111111111111111111111111111111111111111111111111111,11111111111111111111111111111111111111111111111111111111111111111111111,} 
+*nowOperator = 1 
+*nowValue = 11111111111111111111111111111111111111111111111111111111111111111111111 
+text[*nowOperator] = 42 
+operatorSplit = {1,} 
+valueSplit = {11111111111111111111111111111111111111111111111111111111111111111111111,11111111111111111111111111111111111111111111111111111111111111111111111,} 
+operatorSplit = {} 
+valueSplit = {123456790123456790123456790123456790123456790123456790123456790123456787654320987654320987654320987654320987654320987654320987654320987654321,} 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 27 
+Status.cpp : void* status::__exitStatus() at line 183 
+
+ 
+2024-01-05 16:59:58 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get valid Ascii charactor 2 50 
+inputString = "12" 
+get valid Ascii charactor 3 51 
+inputString = "123" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "123" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=123" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "123" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "123" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor a 97 
+inputString = "a" 
+get valid Ascii charactor   32 
+inputString = "a " 
+get valid Ascii charactor = 61 
+inputString = "a =" 
+get valid Ascii charactor   32 
+inputString = "a = " 
+get valid Ascii charactor _ 95 
+inputString = "a = _" 
+get valid Ascii charactor   32 
+inputString = "a = _ " 
+get valid Ascii charactor + 43 
+inputString = "a = _ +" 
+get valid Ascii charactor   32 
+inputString = "a = _ + " 
+get valid Ascii charactor 1 49 
+inputString = "a = _ + 1" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "a = _ + 1" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "a=_+1" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_+1" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "_" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "_" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "1" 
+*nowOperator = 1 
+*nowValue = 123 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {123,1,} 
+*nowOperator = 1 
+*nowValue = 123 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {123,1,} 
+*nowOperator = 1 
+*nowValue = 123 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {123,1,} 
+operatorSplit = {} 
+valueSplit = {124,} 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor b 98 
+inputString = "b" 
+get valid Ascii charactor   32 
+inputString = "b " 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor b 98 
+inputString = "b" 
+get valid Ascii charactor   32 
+inputString = "b " 
+get valid Ascii charactor = 61 
+inputString = "b =" 
+get valid Ascii charactor   32 
+inputString = "b = " 
+get valid Ascii charactor a 97 
+inputString = "b = a" 
+get valid Ascii charactor   32 
+inputString = "b = a " 
+get valid Ascii charactor + 43 
+inputString = "b = a +" 
+get valid Ascii charactor   32 
+inputString = "b = a + " 
+get valid Ascii charactor 8 56 
+inputString = "b = a + 8" 
+get valid Ascii charactor / 47 
+inputString = "b = a + 8/" 
+get valid Ascii charactor 0 48 
+inputString = "b = a + 8/0" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "b = a + 8/0" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "b=a+8/0" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a+8/0" 
+test::toString(bracketRecord) = "{0,0,0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "a" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "8" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "8" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "0" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "0" 
+*nowOperator = 1 
+*nowValue = 124 
+text[*nowOperator] = 43 
+operatorSplit = {1,3,} 
+valueSplit = {124,8,0,} 
+*nowOperator = 3 
+*nowValue = 8 
+text[*nowOperator] = 47 
+operatorSplit = {1,3,} 
+valueSplit = {124,8,0,} 
+DividedByZeroException :  
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 9 57 
+inputString = "b = a + 8/9" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "b = a + 8/9" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "b=a+8/9" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a+8/9" 
+test::toString(bracketRecord) = "{0,0,0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "a" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "a" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "8" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "8" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "9" 
+test::toString(bracketRecord) = "{0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "9" 
+*nowOperator = 1 
+*nowValue = 124 
+text[*nowOperator] = 43 
+operatorSplit = {1,3,} 
+valueSplit = {124,8,9,} 
+*nowOperator = 3 
+*nowValue = 8 
+text[*nowOperator] = 47 
+operatorSplit = {1,3,} 
+valueSplit = {124,8,9,} 
+operatorSplit = {1,} 
+valueSplit = {124,8/9,} 
+*nowOperator = 1 
+*nowValue = 124 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {124,8/9,} 
+*nowOperator = 1 
+*nowValue = 124 
+text[*nowOperator] = 43 
+operatorSplit = {1,} 
+valueSplit = {124,8/9,} 
+operatorSplit = {} 
+valueSplit = {1124/9,} 
+Status.cpp : void* status::inputStatus() at line 37 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "" 
+NullInputException : analyze() 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor d 100 
+inputString = "d" 
+get valid Ascii charactor   32 
+inputString = "d " 
+get valid Ascii charactor 1 49 
+inputString = "d 1" 
+get valid Ascii charactor 0 48 
+inputString = "d 10" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "d 10" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=d10" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "d10" 
+test::toString(bracketRecord) = "{0,0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "d10" 
+UnknownVarException : "d10" 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor = 61 
+inputString = "d =10" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "d =10" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "d=10" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "10" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "10" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor ( 40 
+inputString = "(" 
+get valid Ascii charactor ) 41 
+inputString = "()" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "()" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=()" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "()" 
+test::toString(bracketRecord) = "{1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "" 
+NullInputException : __getValue() 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor ) 41 
+inputString = "())" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "())" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=())" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "())" 
+BracketMismatchException : "())" 
+Status.cpp : void* status::inputStatus() at line 37 
+get invalid charactor 25105 
+inputString = "())" 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+get invalid charactor 65288 
+inputString = "))" 
+get invalid charactor 65288 
+inputString = "))" 
+get valid Ascii charactor ( 40 
+inputString = "())" 
+get valid Ascii charactor ( 40 
+inputString = "(())" 
+get invalid charactor 38 
+inputString = "(())" 
+get valid Ascii charactor 1 49 
+inputString = "((1))" 
+get valid Ascii charactor 2 50 
+inputString = "((12))" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "((12))" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=((12))" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "((12))" 
+test::toString(bracketRecord) = "{1,2,2,2,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(12)" 
+test::toString(bracketRecord) = "{1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "12" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "12" 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor ( 40 
+inputString = "(" 
+get valid Ascii charactor 1 49 
+inputString = "(1" 
+get valid Ascii charactor 2 50 
+inputString = "(12" 
+get valid Ascii charactor ) 41 
+inputString = "(12)" 
+get valid Ascii charactor / 47 
+inputString = "(12)/" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/1" 
+get valid Ascii charactor 3 51 
+inputString = "(12)/13" 
+get valid Ascii charactor + 43 
+inputString = "(12)/13+" 
+get valid Ascii charactor ( 40 
+inputString = "(12)/13+(" 
+get valid Ascii charactor ( 40 
+inputString = "(12)/13+((" 
+get valid Ascii charactor ( 40 
+inputString = "(12)/13+(((" 
+get valid Ascii charactor ( 40 
+inputString = "(12)/13+((((" 
+get valid Ascii charactor ( 40 
+inputString = "(12)/13+(((((" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((1" 
+get valid Ascii charactor 2 50 
+inputString = "(12)/13+(((((12" 
+get valid Ascii charactor ) 41 
+inputString = "(12)/13+(((((12)" 
+get valid Ascii charactor + 43 
+inputString = "(12)/13+(((((12)+" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+1" 
+get valid Ascii charactor 3 51 
+inputString = "(12)/13+(((((12)+13" 
+get valid Ascii charactor ) 41 
+inputString = "(12)/13+(((((12)+13)" 
+get valid Ascii charactor - 45 
+inputString = "(12)/13+(((((12)+13)-" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+13)-1" 
+get valid Ascii charactor 4 52 
+inputString = "(12)/13+(((((12)+13)-14" 
+get valid Ascii charactor ) 41 
+inputString = "(12)/13+(((((12)+13)-14)" 
+get valid Ascii charactor ) 41 
+inputString = "(12)/13+(((((12)+13)-14))" 
+get valid Ascii charactor * 42 
+inputString = "(12)/13+(((((12)+13)-14))*" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+13)-14))*1" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+13)-14))*11" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+13)-14))*111" 
+get valid Ascii charactor 1 49 
+inputString = "(12)/13+(((((12)+13)-14))*1111" 
+get valid Ascii charactor ) 41 
+inputString = "(12)/13+(((((12)+13)-14))*1111)" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "(12)/13+(((((12)+13)-14))*1111)" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=(12)/13+(((((12)+13)-14))*1111)" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(12)/13+(((((12)+13)-14))*1111)" 
+test::toString(bracketRecord) = "{1,1,1,0,0,0,0,0,1,2,3,4,5,5,5,4,4,4,4,3,3,3,3,2,1,1,1,1,1,1,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(12)" 
+test::toString(bracketRecord) = "{1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "12" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "12" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "13" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "13" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(((((12)+13)-14))*1111)" 
+test::toString(bracketRecord) = "{1,2,3,4,5,5,5,4,4,4,4,3,3,3,3,2,1,1,1,1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "((((12)+13)-14))*1111" 
+test::toString(bracketRecord) = "{1,2,3,4,4,4,3,3,3,3,2,2,2,2,1,0,0,0,0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "((((12)+13)-14))" 
+test::toString(bracketRecord) = "{1,2,3,4,4,4,3,3,3,3,2,2,2,2,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(((12)+13)-14)" 
+test::toString(bracketRecord) = "{1,2,3,3,3,2,2,2,2,1,1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "((12)+13)-14" 
+test::toString(bracketRecord) = "{1,2,2,2,1,1,1,1,0,0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "((12)+13)" 
+test::toString(bracketRecord) = "{1,2,2,2,1,1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(12)+13" 
+test::toString(bracketRecord) = "{1,1,1,0,0,0,0,}" 
+multiple expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "(12)" 
+test::toString(bracketRecord) = "{1,1,1,0,}" 
+bracketed expression 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "12" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "12" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "13" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "13" 
+*nowOperator = 4 
+*nowValue = 12 
+text[*nowOperator] = 43 
+operatorSplit = {4,} 
+valueSplit = {12,13,} 
+*nowOperator = 4 
+*nowValue = 12 
+text[*nowOperator] = 43 
+operatorSplit = {4,} 
+valueSplit = {12,13,} 
+*nowOperator = 4 
+*nowValue = 12 
+text[*nowOperator] = 43 
+operatorSplit = {4,} 
+valueSplit = {12,13,} 
+operatorSplit = {} 
+valueSplit = {25,} 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "14" 
+test::toString(bracketRecord) = "{0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "14" 
+*nowOperator = 9 
+*nowValue = 25 
+text[*nowOperator] = 45 
+operatorSplit = {9,} 
+valueSplit = {25,14,} 
+*nowOperator = 9 
+*nowValue = 25 
+text[*nowOperator] = 45 
+operatorSplit = {9,} 
+valueSplit = {25,14,} 
+*nowOperator = 9 
+*nowValue = 25 
+text[*nowOperator] = 45 
+operatorSplit = {9,} 
+valueSplit = {25,14,} 
+*nowOperator = 9 
+*nowValue = 25 
+text[*nowOperator] = 45 
+operatorSplit = {9,} 
+valueSplit = {25,14,} 
+operatorSplit = {} 
+valueSplit = {11,} 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "1111" 
+test::toString(bracketRecord) = "{0,0,0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "1111" 
+*nowOperator = 16 
+*nowValue = 11 
+text[*nowOperator] = 42 
+operatorSplit = {16,} 
+valueSplit = {11,1111,} 
+*nowOperator = 16 
+*nowValue = 11 
+text[*nowOperator] = 42 
+operatorSplit = {16,} 
+valueSplit = {11,1111,} 
+operatorSplit = {} 
+valueSplit = {12221,} 
+*nowOperator = 4 
+*nowValue = 12 
+text[*nowOperator] = 47 
+operatorSplit = {4,7,} 
+valueSplit = {12,13,12221,} 
+operatorSplit = {7,} 
+valueSplit = {12/13,12221,} 
+*nowOperator = 7 
+*nowValue = 12/13 
+text[*nowOperator] = 43 
+operatorSplit = {7,} 
+valueSplit = {12/13,12221,} 
+*nowOperator = 7 
+*nowValue = 12/13 
+text[*nowOperator] = 43 
+operatorSplit = {7,} 
+valueSplit = {12/13,12221,} 
+*nowOperator = 7 
+*nowValue = 12/13 
+text[*nowOperator] = 43 
+operatorSplit = {7,} 
+valueSplit = {12/13,12221,} 
+operatorSplit = {} 
+valueSplit = {158885/13,} 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 32 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 13 
+Status.cpp : void* status::__exitStatus() at line 183 
+
+ 
+2024-01-05 19:41:43 init 
+Status.cpp : void* status::initStatus() at line 9 
+Status.cpp : void* status::inputStatus() at line 37 
+get valid Ascii charactor 1 49 
+inputString = "1" 
+get valid Ascii charactor 1 49 
+inputString = "11" 
+get valid Ascii charactor 1 49 
+inputString = "111" 
+get valid Ascii charactor 1 49 
+inputString = "1111" 
+get valid Ascii charactor 1 49 
+inputString = "11111" 
+get valid Ascii charactor 1 49 
+inputString = "111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "1111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "11111111111111111111111" 
+get valid Ascii charactor 1 49 
+inputString = "111111111111111111111111" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112222" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122222" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222222" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112222222" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122222222" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222222222" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112222222222" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122222222222" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "1111111111111111111111112222222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "11111111111111111111111122222222222222222" 
+get valid Ascii charactor 2 50 
+inputString = "111111111111111111111111222222222222222222" 
+endl 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::analyze(std::string_view, const status::ValueHistory&) at line 7 text = "111111111111111111111111222222222222222222" 
+Analyze.cpp : std::pair<std::__cxx11::basic_string<char>, math::RationalNumber> util::__analyze(std::string_view, const status::ValueHistory&) at line 34 text = "_=111111111111111111111111222222222222222222" 
+Analyze.cpp : math::RationalNumber util::__getValue(std::string_view, const status::ValueHistory&) at line 63 text = "111111111111111111111111222222222222222222" 
+test::toString(bracketRecord) = "{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,}" 
+single expression 
+Analyze.cpp : math::RationalNumber util::__getSingleValue(std::string_view, const status::ValueHistory&) at line 157 text = "111111111111111111111111222222222222222222" 
+Status.cpp : void* status::inputStatus() at line 37 
+Status.cpp : void* status::exitStatus() at line 170 input = 27 
+Status.cpp : void* status::__exitStatus() at line 183 

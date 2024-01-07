@@ -1,0 +1,8 @@
+Ctrl+A-Z 1-26
+Backspace 8
+0-9 48-51
+A-Z 65-90
+backspace 83
+a-z 97-122
+left = 754
+right = 774
